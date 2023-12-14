@@ -1,10 +1,15 @@
+// package.json
+
 {
-  "name": "github-actions-demo",
+  "name": "nodejs-demo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Running tests...'",
+    "test": "mocha test/*.js",
     "build": "echo 'Building...'"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "assert": "^2.0.0"  // もし assert モジュールが依存関係に含まれていない場合は追加
+  }
 }
