@@ -1,5 +1,5 @@
 function myFunction() {
-  reurn 'Hello, GitHub Actions!';
+  return 'Hello, GitHub Actions!';
 }
 
 module.exports = myFunction;
